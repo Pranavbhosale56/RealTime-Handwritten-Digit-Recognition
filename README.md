@@ -18,7 +18,7 @@ Users can draw directly on a browser canvas, and the model will predict the digi
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/Pranavbhosale56/RealTime-Handwritten-Digit-Recognition/tree/main.git
+    git clone https://github.com/Pranavbhosale56/RealTime-Handwritten-Digit-Recognition.git
     cd RealTime-Handwritten-Digit-Recognition
     ```
 
