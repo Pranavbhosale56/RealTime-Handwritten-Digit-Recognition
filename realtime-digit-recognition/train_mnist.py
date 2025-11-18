@@ -1,4 +1,4 @@
-# Melatih CNN sederhana di MNIST dan menyimpan model ke ./models/mnist_cnn.h5
+
 
 import os
 import tensorflow as tf
@@ -28,7 +28,8 @@ def build_model(input_shape=(28, 28, 1), num_classes=10):
 def main():
     (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
-    # Normalisasi ke [0,1] dan reshape ke (28,28,1)
+    # Normalization
+    
     x_train = (x_train.astype('float32') / 255.0)[..., None]
     x_test = (x_test.astype('float32') / 255.0)[..., None]
 
@@ -53,4 +54,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
