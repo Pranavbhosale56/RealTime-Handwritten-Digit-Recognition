@@ -1,10 +1,5 @@
 # MNIST Handwritten Digit Recognition - Flask + Realtime Canvas
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-orange?logo=tensorflow)](https://www.tensorflow.org/)
-[![Flask](https://img.shields.io/badge/Flask-3.1-black?logo=flask)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/gbennnn/realtime-digit-recognition?style=social)](https://github.com/gbennnn/realtime-digit-recognition)
 
 An interactive web application for recognizing handwritten digits using a CNN model trained on the MNIST dataset.  
 Users can draw directly on a browser canvas, and the model will predict the digit in **realtime**.
@@ -23,8 +18,8 @@ Users can draw directly on a browser canvas, and the model will predict the digi
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/gbennnn/realtime-digit-recognition.git
-    cd realtime-digit-recognition
+    git clone https://github.com/Pranavbhosale56/RealTime-Handwritten-Digit-Recognition/tree/main.git
+    cd RealTime-Handwritten-Digit-Recognition
     ```
 
 2. **Create a virtual environment & install dependencies**
@@ -60,11 +55,5 @@ Simple CNN model:
 3. Flatten → Dense(128, ReLU) → Dropout(0.3)
 4. Dense(10, Softmax) for classifying digits 0–9.
 
-Optimizer: **Adam**  
-Loss: **SparseCategoricalCrossentropy**  
 Accuracy on MNIST: ±98%.
 
-## License
-
-MIT License.  
-Feel free to use, modify, and distribute this project.
