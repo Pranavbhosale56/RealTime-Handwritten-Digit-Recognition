@@ -4,8 +4,7 @@
 An interactive web application for recognizing handwritten digits using a CNN model trained on the MNIST dataset.  
 Users can draw directly on a browser canvas, and the model will predict the digit in **realtime**.
 
-## Preview
-![Preview App](static/preview.gif) 
+
 
 ## Features
 - **CNN model training** on the MNIST dataset.
